@@ -8,8 +8,6 @@ const Form = () => {
     console.log("Hola!");
   });
 
-  console.log("Se renderizo");
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmit(true);
